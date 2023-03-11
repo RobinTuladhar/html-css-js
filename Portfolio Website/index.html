@@ -6,11 +6,485 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Icon used from here-->
 </head>
 <body>
+    <!----------------------------------- Header mobile start ----------------------------------->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Robin
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-5-fill"></i></i> Home
+
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-fill"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class="ri-book-open-fill"></i> Qualifications
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-service-fill"></i> Services
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-fill"></i> Projects                 
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-fill"></i> Contact                           
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+            <div class="nav_buttons"> <!--dark mode button-->
+                <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-2-line"></i>
+                </div>
+            </div> 
+        </nav>
+    </header>
+    <!----------------------------------- Header mobile end ----------------------------------->
 
 
-    
+
+
+    <!----------------------------------- Main start(Home page) ----------------------------------->
+    <main class="main">
+        <!------------------------------------------------- Home Section ------------------------------------------------>
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+               <div class="home__data grid">
+                <h1 class="home__title">
+                    Hey, Robin Tuladhar here <br>
+                    Data Scientist, Front-end Developer <br>
+                    Based in Nepal <br>
+                </h1>
+
+                <div class="home__blob grid">
+                    <div class="home__profile">
+                        <img src="Images/1.jpg" alt="home home__profile">
+                    </div>
+                </div>
+                <ul class="home__social">
+                    <a href="https://www.linkedin.com" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https://www.github.com" class="home__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </ul>
+               </div>
+               <!-------------------------------- Home information 1  ---------------------> 
+               <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            Biography
+                        </h3>
+                        <p class="home__info-description">
+                            Hello, I am really passinate about making beautiful webdesigns and,
+                            also enthusiast in the filed of data science, ML and AI
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            Contact
+
+                        </h3>
+                        <p class="home__info-description">
+                            Kathmandu, Nepal <br>
+                            tuladharphenom@gmail.com <br>
+                            9742843090
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            Services
+
+                        </h3>
+                        <p class="home__info-description">
+                            Website Design<br>
+                            Data Analysis<br>
+                            Database Administration<br>
+                        </p>
+                    </div>
+               </div>
+               <!-------------------------------- Home information 2  ---------------------> 
+               <div class="home__info">
+                <div>
+                    <h3 class="home__info-title">
+                        Years of Experience
+
+                    </h3>
+                    <p class="home__info-number">
+                        02+
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="home__info-title">
+                        Completed Projects
+
+                    </h3>
+                    <p class="home__info-number">
+                        04+
+                        
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="home__info-title">
+                        Companies Worked for
+
+                    </h3>
+                    <p class="home__info-number">
+                        01
+                    </p>
+                </div>
+               </div>
+
+            </div>
+        </section>
+        <!------------------------------------------------- Skills Section ------------------------------------------------>
+        <section class="skills" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My favorite skills</span>
+            <div class="skills__container container grid section__border">
+                <!----------------------------------- Skills 1 ---------------------------------->
+
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Front-end Developer
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/html-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">HTML</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/css-3.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">CSS</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/logo-javascript.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Java-script</h3>
+                            <span class="skills__subtitle">Begineer</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/react-2.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">React.js</h3>
+                            <span class="skills__subtitle">Beginner</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/git-icon.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">GIT</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------------------------------- Skills 2 ---------------------------------->
+
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-pantone-fill"></i> Data Scientist
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/python-5.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Python</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/tableau-software.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Tableau</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                                        
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/agile-software.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Agile</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                                   
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/matplotlib.png" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Matplotlib</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/ml.jpg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Machine Learning</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/deep-learning.jpg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Deep Learning</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/mysql-6.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">MySql</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/mongodb-icon-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">MongoDB</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                                       
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/power-bi.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">PowerBI</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                                       
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/hadoop.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Hadoop</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/apache-spark-5.svg" alt="skills image">
+                            </div>
+                            <h3 class="skill__name">Spark</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    </div>
+
+                    
+                        
+                    
+                </div>
+
+            </div>
+        </section>
+        <!------------------------------------------------- Qualification Section ------------------------------------------------>
+        <section class="qualificaion secion" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle"> Experience & education</span>
+
+            <div class="qualification__container container grid setcion_border">
+                <!----------------------------------- Qualification 1 ---------------------------------->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-fill"></i>Education
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                COMPUTER SCIENCE <br>
+                                Bachelors Of Science Hons. 
+                            </h3>
+                            <span class="qualification__country">University of Wolverhampton</span>
+                            <span class="qualification__year">2020-2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Computer Science <br>
+                                HIgh School
+                            </h3>
+                            <span class="qualification__country">Brihaspati, Nepal</span>
+                            <span class="qualification__year">2017-2019</span>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------- Qualification 2 ---------------------------------->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-building-line"></i>Work
+
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Senier Cashier/Account Assistant
+
+                            </h3>
+                            <span class="qualification__country">Zest Saing and Credit, Nepal</span>
+                            <span class="qualification__year">2019-2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------------------- Services Section ------------------------------------------------>
+        <sction class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I offer</span>
+
+            <div class="services__container container grid section__border">
+               <div class="services__card">
+                <i class="ri-code-line"></i>
+
+                <h2 class="services__title">
+                    Website Development <br>
+                </h2>
+
+                <p class="services__description">
+                    As a front end developer, my primary focus is on crafting visually appealing, intuitive, and responsive user interfaces that meet the specific needs and requirements of my clients. Using a combination of HTML, CSS, and JavaScript, I work to create designs that are not only aesthetically pleasing but also functional and efficient. Through close collaboration with my clients, I ensure that their website or application accurately reflects their brand identity while providing a seamless user experience for their target audience.
+                </p>
+
+                <div class="services__border"></div>
+               </div>  
+
+               <div class="services__card">
+                <i class="ri-database-2-fill"></i>
+
+                <h2 class="services__title">
+                    Data Scientist <br>
+                </h2>
+
+                <p class="services__description">
+                    As a data scientist, I specialize in analyzing and interpreting large and complex data sets to provide valuable insights and inform strategic decision-making. Using statistical modeling and machine learning techniques, I extract meaningful information from data to identify trends, patterns, and relationships that can be used to optimize business operations and drive growth. By leveraging data-driven approaches, I help my clients gain a competitive advantage and achieve their desired outcomes.
+                </p>
+
+                <div class="services__border"></div>
+               </div> 
+
+               <div class="services__card">
+                <i class="ri-settings-5-fill"></i>
+
+                <h2 class="services__title">
+                    Data Analysis <br>
+                </h2>
+
+                <p class="services__description">
+                    As a data analyst, my role is to gather, process, and analyze large amounts of data to identify trends, patterns, and insights that can inform business decisions. I use a variety of analytical tools and techniques to make sense of data, and I communicate my findings to clients in clear and actionable reports. By providing evidence-based insights, I help my clients make informed decisions that drive their business forward.                </p>
+
+                <div class="services__border"></div>
+               </div> 
+            </div>
+        </sction>
+        <!------------------------------------------------- Projects Section ------------------------------------------------>
+        <!------------------------------------------------- Testimonial Section ------------------------------------------------>
+    </main>
+    <!----------------------------------- Main end ----------------------------------->
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!----------------------------------- Footer Start ----------------------------------->
+    <footer class="footer">
+
+    </footer>
+    <!----------------------------------- Footer End ----------------------------------->
+
+
+
     
     <script src="index.js"></script>
 </body>
