@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Icon used from here-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> <!-- Swiper JS-->
 </head>
 <body>
     <!----------------------------------- Header mobile start ----------------------------------->
@@ -426,8 +427,8 @@
                </div> 
             </div>
         </sction>
-        <!------------------------------------------------- Projects Section ------------------------------------------------>
         <!------------------------------------------------- Testimonial Section ------------------------------------------------>
+        
     </main>
     <!----------------------------------- Main end ----------------------------------->
 
@@ -485,7 +486,97 @@
 
 
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
+
+
+
+<!------------------------------------------------- Projects Section ---------------------------------------------
+<section class="projects section" id="projects">
+    <h2 class="section__title">Projects</h2>
+    <span class="section__subtitle">Recent Work</span>
+
+    <div class="container section__border">
+        <div class="projects__container swiper">
+            <div class="swiper-wrapper">
+                
+
+
+                <div class="projects__content swiper-slide">
+                    <img src="Images/project1.jpg" alt="projects image" class="projects__img">
+
+                    <div>
+                        <span class="projects__subtitle">Web</span>
+                        <h1 class="projects__title">Modern Website</h1>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+              
+
+
+                <div class="projects__content swiper-slide">
+                    <img src="Images/project2.jpg" alt="projects image" class="projects__img">
+
+                    <div>
+                        <span class="projects__subtitle">Web</span>
+                        <h1 class="projects__title">Ecommerce Store</h1>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+              
+
+
+                <div class="projects__content swiper-slide">
+                    <img src="Images/project3.jpg" alt="projects image" class="projects__img">
+
+                    <div>
+                        <span class="projects__subtitle">Design</span>
+                        <h1 class="projects__title">Application Design</h1>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+
+
+                <div class="projects__content swiper-slide">
+                    <img src="Images/project4.jpg " alt="projects image" class="projects__img">
+
+                    <div>
+                        <span class="projects__subtitle">Animation</span>
+                        <h1 class="projects__title">Animation Prototypes</h1>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next">
+                <i class="ri-arrow-drop-right-line"></i>
+
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="ri-arrow-drop-left-fill"></i>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </div>
+</section> --->

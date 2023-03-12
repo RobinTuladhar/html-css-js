@@ -412,11 +412,89 @@
 }
 /****************************************** Services section end *******************************************/
 
-/****************************************** Services section start *******************************************/
-/****************************************** Services section end *******************************************/
+/****************************************** Project section start *******************************************/
+/* .projects__container{
+  overflow: initial;
+}
+.projects__content{
+  display: grid;
+  justify-content: center;
+}
+.projects__img{
+  width: 250px;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.projects__subtitle{
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+.projects__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: 1.25rem;
+  margin: 0.5rem 0 1 0.25rem;
 
-/****************************************** Services section start *******************************************/
-/****************************************** Services section end *******************************************/
+}
+.projects__button{
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+}
+.projects__button i{
+  font-size: 0.9rem;
+  transition: transform .3s;
+}
+.projects__button:hover i{  
+  transform: translateX(.25rem);
 
-/****************************************** Services section start *******************************************/
-/****************************************** Services section end *******************************************/
+} */
+
+/*************************  Swiperjs ******************************/
+/* .projects__container .swiper_button_prev::after,
+.projects__container .swiper_button_next::after{
+  content: "";
+}
+.projects__container .swiper_button_prev,
+.projects__container .swiper_button_next{
+  width: initial;
+  height: initial;
+  margin: initial;
+  font-size: 2.5rem;
+  color: var(--title-color);
+}
+.projects__container .swiper-button-prev{
+  left: -1rem;
+  top: 4.5rem;
+}
+.projects__container .swiper-button-next{
+  right: -1rem;
+  top: 4.5rem;
+}
+.projects__container .swiper-slide{
+  margin-bottom: 4.4rem;
+}
+.projects__container .swiper-pagination-bullets{
+  bottom: 0;
+}
+
+.projects__container .swiper_pagination_bullet{
+  background-color: var(--text-color-light);
+  opacity: initial;
+}
+
+.projects__container .swiper_pagination_bullet-active{
+  background-color: var(--title-color);
+} */
+
+/****************************************** Project section end *******************************************/
+
+/****************************************** Testimonial section start *******************************************/
+
+
+/****************************************** Testimonial section end *******************************************/
+
+/****************************************** Contact section start *******************************************/
+
+/****************************************** Contact section end *******************************************/
